@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin-top: 132px;
-    height: 2000px;
+    height: 3000px;
 }
 
 .brand {
@@ -39,6 +39,14 @@ header {
     width: 100%;
 }
 
-.sc4_card {
-    padding: 2.4rem;
+.part5 {
+    height: 100vh;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
+.part5-image img{
+    width: 100%;
+}
+
