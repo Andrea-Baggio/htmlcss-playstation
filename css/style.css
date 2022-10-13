@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin-top: 132px;
+    height: 2000px;
 }
 
 .brand {
@@ -28,4 +29,8 @@ header {
 
 .header-row {
     gap: .8rem;
+}
+
+.bl_card img {
+    border-radius: 1.3rem;
 }
