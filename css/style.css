@@ -34,3 +34,7 @@ header {
 .bl_card img {
     border-radius: 1.3rem;
 }
+
+.ps5-image img {
+    width: 100%;
+}
