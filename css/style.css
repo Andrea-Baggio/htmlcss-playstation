@@ -7,10 +7,6 @@ body {
     height: 18px;
 }
 
-.nav-link {
-    color: black;
-}
-
 /* .btn {
 
 } */
@@ -18,3 +14,14 @@ body {
 #search-addon{
     font-size: 1.5em;
 }
+
+header {
+    height: calc(100vh - 132px);
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-image img {
+    width: 100%;
+} 
