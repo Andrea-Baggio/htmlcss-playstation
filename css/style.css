@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin-top: 85px;
+    margin-top: 105px;
     height: 5000px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    height: calc(100vh - 85px);
+    height: calc(100vh - 105px);
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
@@ -89,4 +89,23 @@ header {
 
 .sc7_text {
     padding-right: 5rem;
+}
+
+.part8 {
+    background-color: rgb(195, 195, 195);
+}
+
+.part8-image {
+    padding-top: 5rem;
+}
+
+.part8-banner img,
+.part8-image img {
+    width: 100%;
+}
+
+.play-plus-btn {
+    background-color: rgb(217, 218, 220);
+    color: rgb(49, 103, 229);
+    border: none;
 }
