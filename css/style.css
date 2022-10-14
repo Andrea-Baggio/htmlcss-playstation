@@ -1,23 +1,42 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin-top: 132px;
+    margin-top: 85px;
     height: 5000px;
+}
+
+.navbar-dark {
+    height: 25px;
 }
 
 .brand {
     height: 18px;
 }
 
-/* .btn {
+.navbar-light {
+    height: 60px;
+}
 
-} */
+.nav-link {
+    color: black;
+}
+
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu.show {
+    margin-top: 0;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+}
 
 #search-addon{
     font-size: 1.5em;
 }
 
 header {
-    height: calc(100vh - 132px);
+    height: calc(100vh - 85px);
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
@@ -54,14 +73,20 @@ header {
     opacity: .8;
 }
 
-.section6 {
-    background-color: rgb(31, 31, 31);
-}
-
-.sc6_image {
+.sc6_text {
     padding: .8rem .4rem 2.5rem;
 }
 
 .plus {
     padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 576px) {
+    .sc7_card {
+    padding-bottom: 5rem;
+}
+}
+
+.sc7_text {
+    padding-right: 5rem;
 }
