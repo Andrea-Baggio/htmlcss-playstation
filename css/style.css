@@ -131,6 +131,11 @@ footer {
     white-space: nowrap;
 }
 
+.big-container {
+    gap: 400px;
+}
+
+
 
 /* MEDIA QUERY */
 
