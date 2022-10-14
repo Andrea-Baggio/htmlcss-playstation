@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin-top: 132px;
-    height: 3000px;
+    height: 5000px;
 }
 
 .brand {
@@ -50,3 +50,18 @@ header {
     width: 100%;
 }
 
+.sc4_image {
+    opacity: .8;
+}
+
+.section6 {
+    background-color: rgb(31, 31, 31);
+}
+
+.sc6_image {
+    padding: .8rem .4rem 2.5rem;
+}
+
+.plus {
+    padding-bottom: 4rem;
+}
