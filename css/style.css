@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin-top: 105px;
-    height: 7000px;
 }
 
 .navbar-dark {
@@ -81,12 +80,6 @@ header {
     padding-bottom: 4rem;
 }
 
-@media screen and (max-width: 576px) {
-    .sc7_card {
-    padding-bottom: 5rem;
-}
-}
-
 .sc7_text {
     padding-right: 5rem;
 }
@@ -117,4 +110,26 @@ header {
 .part10-banner img,
 .part10-image img {
     width: 100%;
+}
+
+.container-sm {
+    border: 2px solid red;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 768px) {
+    .part11 {
+    margin: auto;
+    max-width: 50%;
+}
+}
+
+@media screen and (max-width: 576px) {
+    .sc7_card {
+    padding-bottom: 5rem;
+}
 }
