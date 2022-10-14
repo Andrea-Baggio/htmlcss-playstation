@@ -112,11 +112,24 @@ header {
     width: 100%;
 }
 
-.container-sm {
-    border: 2px solid red;
+footer {
+    background-color: rgb(0, 67, 156);
 }
 
+.footer-list li {
+    margin-right: 10em;
+}
 
+.footer-item {
+    list-style: none;
+    line-height: 2em;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
 
 
 /* MEDIA QUERY */
