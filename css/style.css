@@ -110,3 +110,11 @@ header {
     border: none;
 }
 
+.part10 {
+    background-color: rgb(22, 28, 59);
+}
+
+.part10-banner img,
+.part10-image img {
+    width: 100%;
+}
