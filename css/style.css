@@ -19,6 +19,10 @@ body {
     position: static;
 }
 
+.nav-link.dropdown-toggle.show::after {
+    transform: rotate(180deg);
+}
+
 .dropdown-menu[data-bs-popper]{
     margin-top: 0;
     width: 100%;    
