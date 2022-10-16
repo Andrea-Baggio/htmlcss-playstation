@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin-top: 100px;
+    margin-top: 115px;
 }
 
 .navbar-dark {
@@ -13,6 +13,59 @@ body {
 
 .nav-link {
     color: black;
+}
+
+.button {
+    padding: 2px;
+    border: 2px solid transparent;
+    border-radius: 1.5rem;
+    transition: .5s;
+}
+
+.button img {
+    border-radius: 1.3rem;
+}
+
+.btn1:hover {
+    border: 2px solid var(--bs-black);
+}
+
+.btn1 {
+    max-width: 82.5px;
+}
+
+.btnr:hover {
+    border: 2px solid var(--bs-red);
+}
+
+.btnr {
+    max-width: 124px;
+}
+
+.btnb-sm:hover,
+.btnb:hover {
+    border: 2px solid var(--bs-primary);
+}
+
+.btnb {
+    max-width: 190.6px;
+}
+
+.btnb-sm {
+    max-width: 122px;
+}
+
+.btnw {
+    max-width: 205px;
+}
+
+.btnw-lg:hover,
+.btnw:hover {
+    border: 2px solid var(--bs-white);
+}
+
+.btnw-lg {
+    max-width: 209px;
 }
 
 .dropdown {
@@ -106,7 +159,7 @@ header {
 }
 
 .part5 {
-    height: 100vh;
+    height: 101vh;
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
     background-position: center;
@@ -179,6 +232,16 @@ header {
 .part8-banner img,
 .part8-image img {
     width: 100%;
+}
+
+.gray-button {
+    color: var(--bs-primary);
+    background-color: rgb(217, 218, 220);
+    border: none;
+}
+
+.gray-button:hover {
+    color: var(--bs-primary);
 }
 
 .play-plus-btn {
