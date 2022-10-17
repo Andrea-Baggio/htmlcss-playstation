@@ -217,6 +217,15 @@ header {
     padding-bottom: 4rem;
 }
 
+.part7-title {
+    position: relative;
+}
+
+.part7-copyright {
+    font-size: .4em;
+    position: absolute;
+}
+
 .sc7_text {
     padding-right: 5rem;
 }
