@@ -177,6 +177,7 @@ header {
     font-size: 11.6px;
     opacity: .8;
     transition: .3s;
+    height: 100%;
 }
 
 .sc4_card:hover {
@@ -184,6 +185,7 @@ header {
 }
 
 .sc4_card-active {
+    height: 100%;
     font-size: 11.6px;
     border-bottom: 3px solid var(--bs-primary);
 }
@@ -226,8 +228,15 @@ header {
     position: absolute;
 }
 
+.sc7_card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .sc7_text {
     padding-right: 5rem;
+    flex-grow: 1;
 }
 
 .part8 {
